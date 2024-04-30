@@ -1,0 +1,9 @@
+1. Wood stick
+2. 3 x Ultrasonic sensor - 5v
+3. Buzzer - 5v
+4. GPS - 3.3v
+5. Red Led - 1.3v
+6. vibrator sensor - 3v
+7. esp32 - 5v
+
+

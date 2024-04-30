@@ -1,0 +1,77 @@
+#include "DHT.h"
+#include "thingProperties.h"
+
+#define DHTPIN D3
+DHT dht(DHTPIN, DHT11);
+
+void setup() {
+  Serial.begin(9600);
+  delay(1500); 
+  pinMode(A0, INPUT);
+  pinMode(D5, OUTPUT);
+  initProperties();
+
+  ArduinoCloud.begin(ArduinoIoTPreferredConnection);
+  
+
+  setDebugMessageLevel(2);
+  ArduinoCloud.printDebugInfo();
+}
+
+void loop() {
+  ArduinoCloud.update();
+  // Your code here 
+  
+}
+
+
+/*
+  Since MoistureLevel is READ_WRITE variable, onMoistureLevelChange() is
+  executed every time a new value is received from IoT Cloud.
+*/
+void onMoistureLevelChange()  {
+  // Add your code here to act upon MoistureLevel change
+  moisture_level = ( 100.00 - (analogRead(A0)) * 100.00 );
+  Serial.println(moisture_level);
+  
+  if(moisture_level < 40){
+    digitalWrite(D5, LOW);
+    delay(10000);
+    digitalWrite(D5, HIGH);
+    delay(5000);
+    }
+}
+
+
+/*
+  Since Temperature is READ_WRITE variable, onTemperatureChange() is
+  executed every time a new value is received from IoT Cloud.
+*/
+void onTemperatureChange()  {
+  // Add your code here to act upon Temperature change
+  temperature = dht.readTemperature();
+  Serial.println(temperature);
+}
+/*
+  Since Humidity is READ_WRITE variable, onHumidityChange() is
+  executed every time a new value is received from IoT Cloud.
+*/
+void onHumidityChange()  {
+  // Add your code here to act upon Humidity change
+  humidity = dht.readHumidity();
+  Serial.println(humidity);
+}
+/*
+  Since Motor is READ_WRITE variable, onMotorChange() is
+  executed every time a new value is received from IoT Cloud.
+*/
+void onMotorChange()  {
+  // Add your code here to act upon Motor change
+  if (motor){
+    digitalWrite(D5, LOW);
+    delay(10000);
+    digitalWrite(D5, HIGH);
+    delay(2000);
+  }
+
+}
