@@ -1,7 +1,7 @@
 #include <ESP8266WiFi.h>
 
-const char* ssid = "vishwakarma";
-const char* password = "8551806885";
+const char* ssid = "";
+const char* password = "";
 const char* host = "maker.ifttt.com";
 
 void setup() {
