@@ -1,7 +1,7 @@
 #include "ESP8266WiFi.h"
 
-const char* ssid = "vishwakarma"; //Enter SSID
-const char* password = "8551806885"; //Enter Password
+const char* ssid = "wifiname"; //Enter SSID
+const char* password = "wifipassword"; //Enter Password
 
 void setup(void)
 { 
