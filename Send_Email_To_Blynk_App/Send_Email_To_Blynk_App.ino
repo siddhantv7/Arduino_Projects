@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL3x7qL7Fqo"
+#define BLYNK_TEMPLATE_ID ""
 #define BLYNK_TEMPLATE_NAME "Control LED"
-#define BLYNK_AUTH_TOKEN "qILU_XEhhSYGogCYrY597CpfUJZQERcr"
+#define BLYNK_AUTH_TOKEN ""
 
 #define BLYNK_PRINT Serial
 #include <ESP8266WiFi.h>
@@ -12,8 +12,8 @@ char auth[ ] = "qILU_XEhhSYGogCYrY597CpfUJZQERcr";
 // Your WiFi credentials.
 // Set password to "" for open networks.
 
-char ssid[ ] = "vishwakarma";
-char pass[ ] = "8551806885";
+char ssid[ ] = "wifiname";
+char pass[ ] = "";
 
 BlynkTimer timer;
 
