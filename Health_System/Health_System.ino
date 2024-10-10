@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL36FDCG9_X"
+#define BLYNK_TEMPLATE_ID ""
 #define BLYNK_TEMPLATE_NAME "Health Monitor"
-#define BLYNK_AUTH_TOKEN "R3X_Cx_TRQnRVTOxoF03-O_HqvOxhoy1"
+#define BLYNK_AUTH_TOKEN "-"
 
 
 #include <ESP8266WiFi.h>
