@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL3CySOQLBG"
+#define BLYNK_TEMPLATE_ID ""
 #define BLYNK_TEMPLATE_NAME "Smart Dustbin"
-#define BLYNK_AUTH_TOKEN "kYybxZbitMDsANBsp-JXWvIA_2cDqqRZ"
+#define BLYNK_AUTH_TOKEN ""
 
 #define BLYNK_PRINT Serial
 #include <ESP8266WiFi.h>
