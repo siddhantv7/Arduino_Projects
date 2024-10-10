@@ -24,7 +24,7 @@ float temp;   //Stores temperature value
 #define DHTTYPE DHT11   // DHT 11
 DHT dht(DHTPIN, DHTTYPE);
 
-char auth[ ] = "AXLwQ58im3kHo2De2PtzUmnmGF3m6XB5";
+char auth[ ] = "";
 char ssid[ ] = "fire";
 char pass[ ] = "fire@123";
 
