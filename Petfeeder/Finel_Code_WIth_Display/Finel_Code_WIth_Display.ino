@@ -8,8 +8,8 @@
 #include <Adafruit_SSD1306.h>
 
 // Replace with your network credentials
-const char *ssid     = "vishwakarma";
-const char *password = "8551806885";
+const char *ssid     = "";
+const char *password = "";
 
 // Define NTP Client to get time
 WiFiUDP ntpUDP;
