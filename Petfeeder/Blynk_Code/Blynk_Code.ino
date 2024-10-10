@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL3_2AgieTb"
+#define BLYNK_TEMPLATE_ID ""
 #define BLYNK_TEMPLATE_NAME "petfeeder"
-#define BLYNK_AUTH_TOKEN "qtOepag83rA7crC2oGCY-Ujw7C1UFdoH"
+#define BLYNK_AUTH_TOKEN "-"
 
 #define BLYNK_PRINT Serial
 #include <ESP8266WiFi.h>
