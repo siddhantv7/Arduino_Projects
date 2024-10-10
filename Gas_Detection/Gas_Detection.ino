@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL3PG7TwiUg"
-#define BLYNK_TEMPLATE_NAME "Gas Leakage Detection"
-#define BLYNK_AUTH_TOKEN "UaozLusMAhgQdmR5qmLPXKkQEsy8B5P8"
+#define BLYNK_TEMPLATE_ID ""
+#define BLYNK_TEMPLATE_NAME ""
+#define BLYNK_AUTH_TOKEN ""
 #define BLYNK_PRINT Serial
 
 #include <Wire.h> 
