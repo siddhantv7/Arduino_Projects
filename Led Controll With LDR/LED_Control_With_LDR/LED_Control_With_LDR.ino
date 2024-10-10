@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL3Bs4SFO-P"
+#define BLYNK_TEMPLATE_ID ""
 #define BLYNK_TEMPLATE_NAME "Light"
-#define BLYNK_AUTH_TOKEN "tTkXQ8mbNAcCgtdZLjn2HeffsJBemifs"
+#define BLYNK_AUTH_TOKEN ""
 
 #define BLYNK_PRINT Serial
 
