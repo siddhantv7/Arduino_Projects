@@ -1,8 +1,8 @@
 
 
-#define BLYNK_TEMPLATE_ID "TTMPL3xEcJkI2e"
+#define BLYNK_TEMPLATE_ID ""
 #define BLYNK_TEMPLATE_NAME "Smart Irrigation System"
-#define BLYNK_AUTH_TOKEN "B-ZjZaOMuDVknmG4B2wz3R3QrGYKbgG7"
+#define BLYNK_AUTH_TOKEN "B-"
 #define BLYNK_PRINT Serial
 
 #include <BlynkSimpleEsp8266.h>
@@ -22,9 +22,9 @@ float humidity;
 float temperature;
 int motion;
 
-char auth[] = "B-ZjZaOMuDVknmG4B2wz3R3QrGYKbgG7";
+char auth[] = "B-";
 char ssid[] = "Realme 20@";
-char pass[] = "@dineshthakekarx";
+char pass[] = "";
 
 void setup() {
   Serial.begin(9600);
