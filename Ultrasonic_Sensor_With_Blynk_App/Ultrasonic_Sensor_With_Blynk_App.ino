@@ -1,18 +1,18 @@
-#define BLYNK_TEMPLATE_ID "TMPL30pYImrQi"
+#define BLYNK_TEMPLATE_ID ""
 #define BLYNK_TEMPLATE_NAME "Send data"
-#define BLYNK_AUTH_TOKEN "EGrBxI1npwwjfh5bY7THSgyCXfTrssHn"
+#define BLYNK_AUTH_TOKEN ""
 
 #define BLYNK_PRINT Serial
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 
-char auth[ ] = "EGrBxI1npwwjfh5bY7THSgyCXfTrssHn";
+char auth[ ] = "";
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
 
-char ssid[ ] = "vishwakarma";
-char pass[ ] = "8551806885";
+char ssid[ ] = "";
+char pass[ ] = "";
 
 int trigPin = D5;    // Trigger
 int echoPin = D6;    // Echo
