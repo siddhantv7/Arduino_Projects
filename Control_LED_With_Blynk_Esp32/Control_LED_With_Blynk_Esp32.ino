@@ -1,12 +1,12 @@
-#define BLYNK_TEMPLATE_ID "TMPL3YO_Mb28z"
+#define BLYNK_TEMPLATE_ID ""
 #define BLYNK_TEMPLATE_NAME "LED"
-#define BLYNK_AUTH_TOKEN "Kyhy3Sfn7McK9v_lsLgusKKBahtvlTcS"
+#define BLYNK_AUTH_TOKEN ""
 
 #define BLYNK_PRINT Serial
 
 #include <BlynkSimpleEsp32.h>
 
-char auth[ ] = "Kyhy3Sfn7McK9v_lsLgusKKBahtvlTcS";
+char auth[ ] = "";
 
 char ssid[ ] = "fire";
 char pass[ ] = "fire@123";
