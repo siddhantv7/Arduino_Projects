@@ -23,8 +23,8 @@
 #endif
 #include <ESP_Mail_Client.h>
 
-#define WIFI_SSID "vishwakarma"
-#define WIFI_PASSWORD "8551806885"
+#define WIFI_SSID "wifiname"
+#define WIFI_PASSWORD ""
 
 /** The smtp host name e.g. smtp.gmail.com for GMail or smtp.office365.com for Outlook or smtp.mail.yahoo.com
  * For yahoo mail, log in to your yahoo mail in web browser and generate app password by go to
