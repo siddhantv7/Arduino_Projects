@@ -1,15 +1,15 @@
-#define BLYNK_TEMPLATE_ID "TMPL3CqlGVAZf"
+#define BLYNK_TEMPLATE_ID ""
 #define BLYNK_TEMPLATE_NAME "Irrigation system"
-#define BLYNK_AUTH_TOKEN "yg9zJc2WAjSw3ep2y_AY75GV43PG53hE"
+#define BLYNK_AUTH_TOKEN ""
 
 #define BLYNK_PRINT Serial
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 
-char auth[ ] = "yg9zJc2WAjSw3ep2y_AY75GV43PG53hE";
+char auth[ ] = "";
 
-char ssid[ ] = "vishwakarma";
-char pass[ ] = "8551806885";
+char ssid[ ] = "wifiname";
+char pass[ ] = "wifiPassword";
 
 BLYNK_WRITE(V0)  // function for switching off and on LED
 {
